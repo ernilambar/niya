@@ -29,6 +29,12 @@ gulp.task( 'styles', function() {
 		.pipe( browserSync.stream() );
 } );
 
+// Copy Fonts.
+gulp.task( 'fonts', function() {
+	return gulp.src( [ 'src/fonts/**/*.*' ] )
+		.pipe( gulp.dest( 'assets/fonts' ) );
+} );
+
 // Reload.
 gulp.task( 'reload', ( cb ) => {
 	browserSync.reload();
@@ -47,4 +53,4 @@ gulp.task( 'watch', function() {
 
 // Tasks.
 gulp.task( 'default', gulp.series( 'watch' ) );
-gulp.task( 'build', gulp.series( 'styles' ) );
+gulp.task( 'build', gulp.series( 'styles', 'fonts' ) );

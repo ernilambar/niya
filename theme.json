@@ -147,18 +147,18 @@
 					]
 				},
 				{
-					"fontFamily": "Manrope, sans-serif",
-					"name": "Manrope",
-					"slug": "manrope",
+					"fontFamily": "WorkSans, sans-serif",
+					"name": "WorkSans",
+					"slug": "worksans",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Manrope",
+							"fontFamily": "WorkSans",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"fontWeight": "200 800",
 							"src": [
-								"file:./assets/fonts/Manrope-Variable.woff2"
+								"file:./assets/fonts/WorkSans-Variable.woff2"
 							]
 						}
 					]
@@ -412,7 +412,7 @@
 					"text": "var:preset|color|secondary"
 				},
 				"typography": {
-					"fontFamily": "var:preset|font-family|manrope",
+					"fontFamily": "var:preset|font-family|worksans",
 					"fontStyle": "normal",
 					"fontWeight": "500"
 				}
@@ -433,7 +433,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|manrope",
+			"fontFamily": "var:preset|font-family|worksans",
 			"fontSize": "var:preset|font-size|base",
 			"fontStyle": "normal",
 			"fontWeight": "400",
