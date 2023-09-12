@@ -1,23 +1,33 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
+
 <!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|xx-large","top":"var:preset|spacing|xx-large","right":"0","left":"0"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"default"}} -->
 <main class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-right:0;padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group"><!-- wp:post-featured-image /-->
 
 	<!-- wp:post-title /-->
 
-	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-	<div class="wp-block-group"><!-- wp:post-date {"isLink":true} /-->
+	<!-- wp:group {"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group"><!-- wp:group {"style":{"position":{"type":""},"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","orientation":"horizontal","justifyContent":"left","flexWrap":"wrap"}} -->
+	<div class="wp-block-group"><!-- wp:post-date /-->
 
-	<!-- wp:paragraph {"textColor":"quinary"} -->
-	<p class="has-quinary-color has-text-color">/</p>
+	<!-- wp:paragraph -->
+	<p>-</p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:post-terms {"term":"category"} /--></div>
+	<!-- wp:paragraph -->
+	<p>by</p>
+	<!-- /wp:paragraph -->
+
+	<!-- wp:post-author-name {"isLink":true} /-->
+
+	<!-- wp:post-terms {"term":"category","prefix":"in "} /--></div>
 	<!-- /wp:group --></div>
 	<!-- /wp:group -->
 
 	<!-- wp:post-content {"layout":{"inherit":true}} /-->
+
+	<!-- wp:post-terms {"term":"post_tag"} /-->
 
 	<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"}}},"layout":{"inherit":true,"type":"constrained"}} -->
 	<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium)"><!-- wp:separator {"backgroundColor":"quaternary","className":"is-style-wide-thin-line"} -->
@@ -75,7 +85,9 @@
 
 	<!-- wp:post-comments-form /--></div>
 	<!-- /wp:comments --></div>
+	<!-- /wp:group --></div>
 	<!-- /wp:group --></main>
 	<!-- /wp:group -->
+
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
