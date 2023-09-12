@@ -14,13 +14,13 @@ Text Domain: niya
 Tags: one-column, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
 */
 
-@import './config/utils.css';
+@import './utils/config.css';
 
 body {
   background-color: var(--theme-color-primary);
 	margin-left: 100px;
 	font-family: var(--theme-font-primary);
-	font-size: clamp(12px, 10 * (1vw + 1vh) / 2, 100px);
+	font-size: var(--wp--preset--font-size--medium);
 
 	@media (--viewport-medium) {
     margin-block: 0;
