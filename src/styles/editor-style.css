@@ -1,0 +1,5 @@
+@import './utils/config.css';
+
+a {
+	color: var(--theme-color-primary);
+}
