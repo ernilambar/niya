@@ -1,9 +1,3 @@
-:root {
-  --theme-color-primary: pink;
-  --theme-font-primary: Serif;
-}
-
 a {
-	color: pink;
 	color: var(--theme-color-primary);
 }

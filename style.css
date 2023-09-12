@@ -14,45 +14,100 @@ Text Domain: niya
 Tags: one-column, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
 */
 
-:root {
-  --theme-color-primary: pink;
-  --theme-font-primary: Serif;
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
 }
 
 body {
-  background-color: pink;
-  background-color: var(--theme-color-primary);
-	margin-left: 100px;
-	font-family: Serif;
-	font-family: var(--theme-font-primary);
-	font-size: var(--wp--preset--font-size--medium);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-@media (max-width: 50rem) {
-
-body {
-    margin-top: 0;
-    margin-bottom: 0;
+.button,
+.button:visited,
+button,
+.wp-block-search__button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	font-family: inherit;
+	font-size: var(--wp--preset--font-size--base);
+	border: none;
+	border-radius: 5px;
+	background: var(--wp--preset--color--primary);
+	line-height: 1;
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
 }
-  }
 
-body a {
-		color: #ff0000;
-	}
+.button:active,
+.button:focus,
+button:active,
+button:focus,
+.wp-block-search__button:active,
+.wp-block-search__button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--background);
+}
 
-@media (max-width: 50rem) {
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+select,
+textarea {
+	font-family: inherit;
+	font-size: var(--wp--preset--font-size--base);
+	color: var(--wp--preset--color--base);
+	border: none;
+	border: 1px solid var(--wp--preset--color--quinary);
+	border-radius: 5px;
+	padding: 0.5em;
+	width: 100%;
+}
 
-body a {
-			color: green;
-	}
-		}
-
-body a:hover {
-			color: blue;
-		}
-
-header {
-	display: flex;
-	gap: 10px;
-	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid var(--wp--preset--color--secondary);
 }

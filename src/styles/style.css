@@ -15,32 +15,5 @@ Tags: one-column, custom-menu, custom-logo, editor-style, featured-images, full-
 */
 
 @import './utils/config.css';
-
-body {
-  background-color: var(--theme-color-primary);
-	margin-left: 100px;
-	font-family: var(--theme-font-primary);
-	font-size: var(--wp--preset--font-size--medium);
-
-	@media (--viewport-medium) {
-    margin-block: 0;
-  }
-
-	a {
-		color: #ff0000;
-
-		@media (--viewport-medium) {
-			color: green;
-		}
-
-		&:hover {
-			color: blue;
-		}
-	}
-}
-
-header {
-	display: flex;
-	gap: 10px;
-	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+@import './common/generic.css';
+@import './common/form.css';
