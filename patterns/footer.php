@@ -2,7 +2,7 @@
 /**
  * Title: Footer
  * Slug: niya/footer
- * Categories: niya
+ * Categories: hidden
  * Keywords: footer
  * Inserter: no
  *
