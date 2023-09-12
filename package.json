@@ -27,7 +27,8 @@
       "!composer.json",
       "!easy-replace-in-files.json",
       "!package.json",
-      "!src/**/*"
+      "!src/**/*",
+			"!vendor/**/*"
     ]
   },
   "devDependencies": {
