@@ -8,6 +8,7 @@ const sourcemaps = require( 'gulp-sourcemaps' );
 const environments = require( 'gulp-environments' );
 const postcss = require( 'gulp-postcss' );
 const postcssPresetEnv = require( 'postcss-preset-env' );
+const atImport = require("postcss-import");
 
 const development = environments.development;
 const production = environments.production;
@@ -17,6 +18,7 @@ gulp.task( 'styles', function() {
 	return gulp.src( [ 'src/styles/*.css' ] )
 		.pipe( development( sourcemaps.init() ) )
 		.pipe( postcss( [
+			atImport(),
 			postcssPresetEnv(),
 		] ) )
 		.pipe( development( sourcemaps.write( '.' ) ) )

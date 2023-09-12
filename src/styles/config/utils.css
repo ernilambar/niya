@@ -1,0 +1,6 @@
+@custom-media --viewport-medium (width <= 50rem);
+
+:root {
+  --theme-color-primary: pink;
+  --theme-font-primary: Serif;
+}
