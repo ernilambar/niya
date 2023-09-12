@@ -4,6 +4,7 @@
  * Slug: niya/footer
  * Categories: niya
  * Keywords: footer
+ * Inserter: no
  *
  * @package Niya
  */
