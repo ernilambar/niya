@@ -1,0 +1,47 @@
+{
+	"name": "niya",
+	"version": "1.0.0",
+	"description": "Niya",
+	"author": "Nilambar Sharma",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress",
+		"wordpress-theme"
+	],
+	"homepage": "https://github.com/ernilambar/niya/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ernilambar/niya/"
+	},
+	"bugs": {
+		"url": "https://github.com/ernilambar/niya/issues"
+	},
+	"browserslist": "> 1%, not dead",
+	"packtor": {
+		"files": [
+			"**/*",
+			"!*.js",
+			"!*.lock",
+			"!*.lockb",
+			"!*.yaml",
+			"!composer.json",
+			"!easy-replace-in-files.json",
+			"!package.json",
+			"!src/**/*"
+		]
+	},
+	"devDependencies": {
+		"easy-replace-in-files": "^1.0.3",
+		"node-wp-i18n": "^1.2.7",
+		"packtor": "^1.0.2",
+		"shx": "^0.3.4"
+	},
+	"scripts": {
+		"pot": "composer run-script pot",
+		"td": "wpi18n addtextdomain --exclude=vendor,deploy,node_modules",
+		"version": "easy-replace-in-files",
+		"ready": "bun run version && bun run pot",
+		"predeploy": "bun run ready",
+		"deploy": "packtor"
+	}
+}
