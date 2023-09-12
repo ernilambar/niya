@@ -22,7 +22,7 @@ Tags: one-column, custom-menu, custom-logo, editor-style, featured-images, full-
 body {
   background-color: pink;
   background-color: var(--theme-color-primary);
-	margin-left: 100px;
+	margin-right: 100px;
 	font-family: Serif;
 	font-family: var(--theme-font-primary);
 	font-size: clamp(12px, 10 * (1vw + 1vh) / 2, 100px);
