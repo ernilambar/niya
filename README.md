@@ -1,2 +1,0 @@
-# niya
-WP FSE theme
