@@ -4,6 +4,7 @@
  * Slug: niya/header
  * Categories: niya
  * Keywords: header
+ * Inserter: no
  *
  * @package Niya
  */
