@@ -14,12 +14,7 @@ Text Domain: niya
 Tags: one-column, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
 */
 
-@custom-media --viewport-medium (width <= 50rem);
-
-:root {
-  --theme-color-primary: pink;
-  --theme-font-primary: Serif;
-}
+@import './config/utils.css';
 
 body {
   background-color: var(--theme-color-primary);
