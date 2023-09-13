@@ -52,6 +52,7 @@
 		"dev": "gulp",
 		"build": "gulp build",
 		"prod": "gulp build --env production",
+		"prepare": "composer install",
 		"pot": "composer run-script pot",
 		"td": "wpi18n addtextdomain --exclude=vendor,deploy,node_modules",
 		"lint:json": "bunx wp-scripts format *.json",
