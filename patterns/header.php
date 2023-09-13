@@ -10,26 +10,18 @@
  */
 
 ?>
-<!-- wp:group {"className":"home-banner"} -->
-<div class="wp-block-group home-banner"><!-- wp:cover {"url":"<?php echo esc_url( NIYA_URL . '/assets/images/banner.webp' ); ?>","dimRatio":50,"overlayColor":"base","contentPosition":"center center"} -->
-<div class="wp-block-cover"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( NIYA_URL . '/assets/images/banner.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<!-- wp:group {"style":{"border":{"bottom":{"color":"var:preset|color|base-3","width":"1px"},"top":[],"right":[],"left":[]}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--base-3);border-bottom-width:1px"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"1vh","top":"1vh","right":"0","left":"0"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignfull" style="padding-top:1vh;padding-right:0;padding-bottom:1vh;padding-left:0"><!-- wp:group {"layout":{"type":"flex"}} -->
+<div class="wp-block-group"><!-- wp:site-logo {"shouldSyncIcon":true} /-->
 
-<!-- wp:navigation {"textColor":"white","icon":"menu","overlayBackgroundColor":"black","overlayTextColor":"white","layout":{"type":"flex","justifyContent":"center"}} -->
-<!-- wp:navigation-link {"label":"Home","url":"#","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}}} -->
+<div class="wp-block-group"><!-- wp:site-title {"level":0} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
 
-<!-- wp:navigation-link {"label":"About","url":"#","kind":"custom","isTopLevelLink":true} /-->
-
-<!-- wp:navigation-link {"label":"Services","url":"#","kind":"custom","isTopLevelLink":true} /-->
-
-<!-- wp:navigation-link {"label":"Portfolio","url":"#","kind":"custom","isTopLevelLink":true} /-->
-
-<!-- wp:navigation-link {"label":"Contact","url":"#","kind":"custom","isTopLevelLink":true} /-->
-<!-- /wp:navigation -->
-<!-- wp:site-logo {"width":150,"shouldSyncIcon":true,"align":"center","className":"is-style-rounded"} /-->
-
-<!-- wp:site-title {"textAlign":"center"} /-->
-
-<!-- wp:site-tagline {"textAlign":"center"} /-->
-</div></div>
-<!-- /wp:cover --></div>
+<!-- wp:navigation {"ref":1926,"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0"}}}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
