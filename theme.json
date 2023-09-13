@@ -450,6 +450,16 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "uncategorized",
+			"name": "content",
+			"title": "Content"
+		},
+		{
+			"area": "uncategorized",
+			"name": "content-single",
+			"title": "Content Single"
 		}
 	]
 }
