@@ -34,18 +34,13 @@ msgstr ""
 msgid "https://www.nilambar.net"
 msgstr ""
 
-#: patterns/404.php
-msgctxt "Pattern title"
-msgid "A 404 page"
-msgstr ""
-
 #: patterns/footer.php
 msgctxt "Pattern title"
 msgid "Footer"
 msgstr ""
 
 #. translators: %s: Copyright text.
-#: patterns/footer.php:18
+#: patterns/footer.php:20
 msgid "Copyright © %s. All Rights Reserved."
 msgstr ""
 
