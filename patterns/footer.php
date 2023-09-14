@@ -10,6 +10,7 @@
  */
 
 ?>
+
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"},"blockGap":"var:preset|spacing|large"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"30%"} -->
@@ -44,17 +45,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>Team</p>
-<!-- /wp:paragraph -->
+<div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"},"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
+<!-- wp:navigation-link {"label":"Team","url":"#"} /-->
 
-<!-- wp:paragraph -->
-<p>History</p>
-<!-- /wp:paragraph -->
+<!-- wp:navigation-link {"label":"History","url":"#"} /-->
 
-<!-- wp:paragraph -->
-<p>Careers</p>
-<!-- /wp:paragraph --></div>
+<!-- wp:navigation-link {"label":"Careers","url":"#"} /-->
+<!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
@@ -64,37 +61,31 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>Privacy Policy</p>
-<!-- /wp:paragraph -->
+<div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"},"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
+<!-- wp:navigation-link {"label":"Privacy Policy","url":"#"} /-->
 
-<!-- wp:paragraph -->
-<p>Terms and Conditions</p>
-<!-- /wp:paragraph -->
+<!-- wp:navigation-link {"label":"Terms and Conditions","url":"#"} /-->
 
-<!-- wp:paragraph -->
-<p>Contact Us</p>
-<!-- /wp:paragraph --></div>
+<!-- wp:navigation-link {"label":"Contact Us","url":"#"} /-->
+<!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">Social Media</p>
+<p class="has-medium-font-size">Resources</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>Facebook</p>
-<!-- /wp:paragraph -->
+<div class="wp-block-group">
+	<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"},"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
+	<!-- wp:navigation-link {"label":"Knowledgebase","url":"#"} /-->
 
-<!-- wp:paragraph -->
-<p>Instagram</p>
-<!-- /wp:paragraph -->
+	<!-- wp:navigation-link {"label":"Help Center","url":"#"} /-->
 
-<!-- wp:paragraph -->
-<p>Twitter/X</p>
-<!-- /wp:paragraph --></div>
+	<!-- wp:navigation-link {"label":"Documentation","url":"#"} /-->
+	<!-- /wp:navigation -->
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -103,7 +94,15 @@
 
 <!-- wp:group {"align":"wide","style":{"border":{"top":{"color":"var:preset|color|tertiary","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|small"}}}} -->
 <div class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--tertiary);border-top-width:1px;padding-top:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left">Copyright © 2023. All Rights Reserved.</p>
+<p class="has-text-align-left">
+	<?php
+		printf(
+			/* translators: %s: Copyright text. */
+			esc_html__( 'Copyright © %s. All Rights Reserved.', 'niya' ),
+			esc_attr( date_i18n( 'Y' ) )
+		);
+		?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

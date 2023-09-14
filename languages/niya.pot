@@ -39,6 +39,11 @@ msgctxt "Pattern title"
 msgid "Footer"
 msgstr ""
 
+#. translators: %s: Copyright text.
+#: patterns/footer.php:101
+msgid "Copyright © %s. All Rights Reserved."
+msgstr ""
+
 #: patterns/header.php
 msgctxt "Pattern title"
 msgid "Header"

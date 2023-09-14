@@ -278,6 +278,23 @@
 					"fontSize": "var:preset|font-size|x-large"
 				}
 			},
+			"core/navigation": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
 			"core/post-title": {
 				"elements": {
 					"link": {
