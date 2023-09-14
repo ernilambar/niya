@@ -42,37 +42,5 @@
   <config name="ignore_warnings_on_exit" value="1"/>
 
   <!-- Include the WordPress rulesets. -->
-  <rule ref="WordPress">
-    <exclude name="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents"/>
-	</rule>
-
-  <rule ref="WordPress.WhiteSpace.ControlStructureSpacing">
-    <properties>
-      <property name="blank_line_check" value="true"/>
-    </properties>
-  </rule>
-
-  <rule ref="WordPress-Extra">
-    <!-- Forget about file names -->
-    <exclude name="WordPress.Files.FileName"/>
-
-    <!-- Allow WP global modification -->
-    <exclude name="WordPress.WP.GlobalVariablesOverride.Prohibited"/>
-
-    <!-- This nonce sniff almost never works right -->
-    <exclude name="WordPress.Security.NonceVerification.Missing"/>
-
-    <!-- Remove nonce notice -->
-    <exclude name="WordPress.Security.NonceVerification.Recommended"/>
-  </rule>
-
-  <!-- Make missing translator comment a warning. -->
-  <rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
-    <type>warning</type>
-  </rule>
-
-  <!-- Sometimes we need to override globals -->
-  <rule ref="WordPress.WP.GlobalVariablesOverride.OverrideProhibited">
-    <type>warning</type>
-  </rule>
+  <rule ref="WordPress" />
 </ruleset>
