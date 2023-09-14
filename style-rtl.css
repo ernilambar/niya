@@ -38,6 +38,7 @@ input[type="reset"],
 input[type="submit"] {
 	font-family: inherit;
 	font-size: var(--wp--preset--font-size--base);
+	color: var(--wp--preset--color--white);
 	border: none;
 	border-radius: 5px;
 	background: var(--wp--preset--color--primary);
@@ -62,7 +63,7 @@ input[type="reset"]:focus,
 input[type="submit"]:active,
 input[type="submit"]:focus {
 	background: var(--wp--preset--color--primary);
-	color: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--white);
 }
 
 input[type="text"],
