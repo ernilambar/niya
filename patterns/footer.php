@@ -10,8 +10,8 @@
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-large","padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:0;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:0"><!-- wp:columns {"align":"wide"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"},"blockGap":"var:preset|spacing|large"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"30%"} -->
 <div class="wp-block-column" style="flex-basis:30%"><!-- wp:group {"style":{"dimensions":{"minHeight":""},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:site-title {"level":0,"fontSize":"medium"} /-->
@@ -43,7 +43,7 @@
 <p class="has-medium-font-size">About</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p>Team</p>
 <!-- /wp:paragraph -->
@@ -63,7 +63,7 @@
 <p class="has-medium-font-size">Privacy</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p>Privacy Policy</p>
 <!-- /wp:paragraph -->
@@ -83,7 +83,7 @@
 <p class="has-medium-font-size">Social Media</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p>Facebook</p>
 <!-- /wp:paragraph -->
@@ -101,8 +101,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:group {"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:paragraph {"align":"left"} -->
+<!-- wp:group {"align":"wide","style":{"border":{"top":{"color":"var:preset|color|tertiary","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|small"}}}} -->
+<div class="wp-block-group alignwide" style="border-top-color:var(--wp--preset--color--tertiary);border-top-width:1px;padding-top:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"align":"left"} -->
 <p class="has-text-align-left">Copyright © 2023. All Rights Reserved.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
