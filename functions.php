@@ -64,3 +64,21 @@ add_action(
 		wp_style_add_data( 'niya-style', 'rtl', 'replace' );
 	}
 );
+
+/**
+ * Custom block styles.
+ *
+ * @since 1.0.0
+ */
+add_action(
+	'init',
+	function () {
+		register_block_style(
+			'core/post-terms',
+			array(
+				'name'  => 'pill',
+				'label' => esc_html__( 'Pill', 'niya' ),
+			)
+		);
+	}
+);

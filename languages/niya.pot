@@ -34,6 +34,10 @@ msgstr ""
 msgid "https://www.nilambar.net"
 msgstr ""
 
+#: functions.php:80
+msgid "Pill"
+msgstr ""
+
 #: patterns/footer.php
 msgctxt "Pattern title"
 msgid "Footer"

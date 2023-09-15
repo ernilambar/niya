@@ -29,6 +29,22 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+/** Post Tags **/
+
+.is-style-pill a,
+.is-style-pill span:not([class]):not([data-rich-text-placeholder])
+{
+	display:inline-block;
+	background-color: #f2f2f2;
+	padding: 4px 10px;
+	border-radius:16px;
+	margin: 0 0 10px 10px;
+}
+
+.is-style-pill a:hover {
+	background:#eee;
+}
+
 .button,
 .button:visited,
 button,
