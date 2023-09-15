@@ -33,3 +33,4 @@ Niya is distributed under the terms of the GNU GPL
 == Credits ==
 
 * Image - https://pxhere.com/en/photo/413237 - [CC0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+* Google Fonts - https://fonts.google.com/ License: SIL Open Font License, 1.1 - scripts.sil.org/OFL
