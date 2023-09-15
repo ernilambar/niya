@@ -39,6 +39,54 @@ msgctxt "Pattern title"
 msgid "Footer"
 msgstr ""
 
+#: patterns/footer.php:44
+msgid "About"
+msgstr ""
+
+#: patterns/footer.php:49
+msgid "Team"
+msgstr ""
+
+#: patterns/footer.php:51
+msgid "History"
+msgstr ""
+
+#: patterns/footer.php:53
+msgid "Careers"
+msgstr ""
+
+#: patterns/footer.php:60
+msgid "Privacy"
+msgstr ""
+
+#: patterns/footer.php:65
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer.php:67
+msgid "Terms & Conditions"
+msgstr ""
+
+#: patterns/footer.php:69
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer.php:76
+msgid "Resources"
+msgstr ""
+
+#: patterns/footer.php:82
+msgid "Knowledgebase"
+msgstr ""
+
+#: patterns/footer.php:84
+msgid "Help Center"
+msgstr ""
+
+#: patterns/footer.php:86
+msgid "Documentation"
+msgstr ""
+
 #. translators: %s: Copyright text.
 #: patterns/footer.php:101
 msgid "Copyright © %s. All Rights Reserved."
