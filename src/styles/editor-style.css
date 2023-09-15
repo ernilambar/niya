@@ -1,5 +1,3 @@
 @import './utils/config.css';
 
-a {
-	color: var(--theme-color-primary);
-}
+@import './common/form.css';

@@ -23,7 +23,7 @@ msgid "https://github.com/ernilambar/niya"
 msgstr ""
 
 #. Description of the theme
-msgid "Simple theme."
+msgid "Niya is a minimal and lightweight WordPress FSE blog theme for writers and bloggers. This simplicity-focused theme provides users pleasant and easy reading of the content. The theme is also responsive and cross-browser compatible."
 msgstr ""
 
 #. Author of the theme
