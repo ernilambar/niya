@@ -41,49 +41,49 @@
 <div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--30);flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","orientation":"horizontal"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">About</p>
+<p class="has-medium-font-size"><?php esc_html_e( 'About', 'niya' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"},"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
-<!-- wp:navigation-link {"label":"Team","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Team', 'niya' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"History","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'History', 'niya' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Careers","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Careers', 'niya' ); ?>","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">Privacy</p>
+<p class="has-medium-font-size"><?php esc_html_e( 'Privacy', 'niya' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"},"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
-<!-- wp:navigation-link {"label":"Privacy Policy","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Privacy Policy', 'niya' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Terms and Conditions","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Terms & Conditions', 'niya' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Contact Us","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Contact Us', 'niya' ); ?>","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">Resources</p>
+<p class="has-medium-font-size"><?php esc_html_e( 'Resources', 'niya' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 	<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"},"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
-	<!-- wp:navigation-link {"label":"Knowledgebase","url":"#"} /-->
+	<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Knowledgebase', 'niya' ); ?>","url":"#"} /-->
 
-	<!-- wp:navigation-link {"label":"Help Center","url":"#"} /-->
+	<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Help Center', 'niya' ); ?>","url":"#"} /-->
 
-	<!-- wp:navigation-link {"label":"Documentation","url":"#"} /-->
+	<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Documentation', 'niya' ); ?>","url":"#"} /-->
 	<!-- /wp:navigation -->
 </div>
 <!-- /wp:group --></div>
