@@ -32,4 +32,4 @@ Niya is distributed under the terms of the GNU GPL
 
 == Credits ==
 
-* Image - https://pxhere.com/en/photo/1198258 - [CC0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+* Image - https://pxhere.com/en/photo/413237 - [CC0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
