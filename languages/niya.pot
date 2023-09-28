@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Niya 1.0.0\n"
+"Project-Id-Version: Niya 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/niya\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgid "Niya"
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://github.com/ernilambar/niya"
+msgid "https://nilambar.net/2023/09/niya-minimal-wordpress-fse-theme.html"
 msgstr ""
 
 #. Description of the theme
