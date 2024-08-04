@@ -140,9 +140,7 @@
 							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/Inter-Variable.woff2"
-							]
+							"src": [ "file:./assets/fonts/Inter-Variable.woff2" ]
 						}
 					]
 				},
@@ -157,9 +155,7 @@
 							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"fontWeight": "200 800",
-							"src": [
-								"file:./assets/fonts/WorkSans-Variable.woff2"
-							]
+							"src": [ "file:./assets/fonts/WorkSans-Variable.woff2" ]
 						}
 					]
 				}
