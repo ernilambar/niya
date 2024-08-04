@@ -7,20 +7,16 @@ const browserSync = require( 'browser-sync' ).create();
 const sourcemaps = require( 'gulp-sourcemaps' );
 const environments = require( 'gulp-environments' );
 const postcss = require( 'gulp-postcss' );
-const postcssPresetEnv = require( 'postcss-preset-env' );
-const atImport = require("postcss-import");
 
 const development = environments.development;
 const production = environments.production;
 
 // Sass.
-gulp.task( 'styles', function() {
-	return gulp.src( [ 'src/styles/*.css' ] )
+gulp.task( 'styles', function () {
+	return gulp
+		.src( [ 'src/styles/*.css' ] )
 		.pipe( development( sourcemaps.init() ) )
-		.pipe( postcss( [
-			atImport(),
-			postcssPresetEnv(),
-		] ) )
+		.pipe( postcss() )
 		.pipe( development( sourcemaps.write( '.' ) ) )
 		.pipe( gulp.dest( './' ) )
 		.pipe( production( rtlcss() ) )
@@ -29,15 +25,10 @@ gulp.task( 'styles', function() {
 		.pipe( browserSync.stream() );
 } );
 
-// Copy Images.
-gulp.task( 'images', function() {
-	return gulp.src( [ 'src/images/**/*.*' ] )
-		.pipe( gulp.dest( 'assets/images' ) );
-} );
-
 // Copy Fonts.
-gulp.task( 'fonts', function() {
-	return gulp.src( [ 'src/fonts/**/*.*' ] )
+gulp.task( 'fonts', function () {
+	return gulp
+		.src( [ 'src/fonts/**/*.*' ], { buffer: true, removeBOM: false } )
 		.pipe( gulp.dest( 'assets/fonts' ) );
 } );
 
@@ -48,10 +39,10 @@ gulp.task( 'reload', ( cb ) => {
 } );
 
 // Watch.
-gulp.task( 'watch', function() {
+gulp.task( 'watch', function () {
 	browserSync.init( {
 		proxy: process.env.DEV_SERVER_URL,
-		open: false,
+		open: 'yes' === process.env.BROWSERSYNC_OPEN ? true : false,
 	} );
 
 	gulp.watch( 'src/styles/**/*.css', gulp.series( 'styles', 'reload' ) );
@@ -60,4 +51,4 @@ gulp.task( 'watch', function() {
 
 // Tasks.
 gulp.task( 'default', gulp.series( 'watch' ) );
-gulp.task( 'build', gulp.series( 'styles', 'images', 'fonts' ) );
+gulp.task( 'build', gulp.series( 'styles', 'fonts' ) );

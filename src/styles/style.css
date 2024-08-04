@@ -5,15 +5,16 @@ Author: Nilambar Sharma
 Author URI: https://www.nilambar.net
 Description: Niya is a minimal and lightweight WordPress FSE blog theme for writers and bloggers. This simplicity-focused theme provides users pleasant and easy reading of the content. The theme is also responsive and cross-browser compatible.
 Requires at least: 6.0
-Tested up to: 6.4
-Requires PHP: 7.0
-Version: 1.0.1
+Tested up to: 6.6
+Requires PHP: 7.2
+Version: 2.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: niya
+Domain Path: /languages
 Tags: one-column, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
 */
 
-@import './utils/config.css';
-@import './common/generic.css';
-@import './common/form.css';
+@import "./utils/config.css";
+@import "./common/generic.css";
+@import "./common/form.css";
