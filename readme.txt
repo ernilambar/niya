@@ -2,7 +2,7 @@
 
 Contributors: rabmalin
 Requires at least: 6.0
-Tested up to: 6.6
+Tested up to: 7.0
 Requires PHP: 7.2
 Stable tag: 2.0.1
 License: GNU General Public License v2 or later
@@ -22,10 +22,13 @@ Niya is a minimal and lightweight WordPress FSE blog theme for writers and blogg
 
 == Copyright ==
 
-Niya WordPress Theme, Copyright 2024 Nilambar Sharma
+Niya WordPress Theme, Copyright 2026 Nilambar Sharma
 Niya is distributed under the terms of the GNU GPL
 
 == Changelog ==
+
+= 2.0.1 - Mar 22 2026 =
+* WP 7.0 compatibility
 
 = 2.0.0 - Aug 04 2024 =
 * Min PHP Required: 7.2

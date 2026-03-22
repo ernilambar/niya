@@ -65,7 +65,7 @@
 		"build": "gulp build",
 		"prod": "gulp build --env production",
 		"pot": "composer run-script pot",
-		"format": "prettier \"**/*.{cjs,css,js,json,mjs}\" --write",
+		"format": "prettier \"**/*.{cjs,css,js,json,mjs}\" --write --log-level warn",
 		"version": "easy-replace-in-files",
 		"clean": "rimraf assets deploy vendor",
 		"predeploy": "pnpm run clean && pnpm run prod",
